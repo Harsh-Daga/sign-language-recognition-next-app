@@ -4,7 +4,7 @@ const Page = () => {
       <div className="jumbotron text-center">
         <h1>Signify - ASL Translator</h1>
         <h4>
-          Signify uses machine learning to transform webcam input into readable
+          Signify uses deep learning to transform webcam input into readable
           sign language using a variety of different techniques. The series of
           texts below detail the steps taken for signify to translate an image
           into a final word.

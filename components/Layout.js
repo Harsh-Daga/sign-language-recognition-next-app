@@ -1,8 +1,6 @@
-import { Link } from 'next/link';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandPaper } from '@fortawesome/free-solid-svg-icons';
-// import { LinkContainer } from 'react-router-bootstrap';
 
 const Layout = ({ children }) => {
   return (
@@ -21,6 +19,9 @@ const Layout = ({ children }) => {
       </Navbar>
       <div className="container">
         <div>{children}</div>
+      </div>
+      <div className="footer">
+        <p>Created by S Harsh and Viraj Bhat</p>
       </div>
     </>
   );
